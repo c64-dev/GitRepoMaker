@@ -1,38 +1,43 @@
 # GitRepoMaker
 ![Screenshot](screenshot.png)
 
-['This is an automated script. \n', 'Allows for easy manipulation of GitHub projects. \n']
+GitRepoMaker gives you an easy way to streamline the procedure of uploading your projects to GitHub, with an easy to use graphical interface.
+
+Once a project folder is selected, the program will add all the necessary GitHub files and folders, create or update the requirements.txt file, create the new repository online and then upload everything to GitHub.
 
 ### Features
-['* Easy to use. \n', '* Automated. \n']
+* Full graphical interface with console output
+* Discover requirements for your program and create the necessary requirements.txt
+* Add project screenshots
+* Streamline the readme.md of your projects by providing a basic template which can be freely edited later on
 
 ### Installation and Updating
-1. Create a folder for the application (eg. `/User/Nick/Projects/Python/GitRepoMaker`).
+1. Create a folder for the application (eg. `~/GitRepoMaker`).
 2. Install all required dependencies.
 
-       python3 -m pip install -r requirements.txt
+        python3 -m pip install -r requirements.txt
 
 3. Run in a terminal:
 
-       cd /User/Nick/Projects/Python/GitRepoMaker
-       git clone https://github.com/c64-dev/Gitrepomaker.git --branch master
+        cd ~/GitRepoMaker
+        git clone https://github.com/c64-dev/GitRepoMaker.git --branch master
 
 ### Update
 In order to update the application, open a terminal and run:
 
-    cd /User/Nick/Projects/Python/GitRepoMaker
+    cd ~/GitRepoMaker
     git pull
 
 ## Usage
 Go to the application's folder and run:
 
 ```
-python3 main.py.py
+python3 main.py
 ```
 
 or if you are in Windows enter:
 
 ```
-c:\python<PYTHON_VERSION_HERE>\python.exe main.py.py
+c:\python<PYTHON_VERSION_HERE>\python.exe main.py
 ```
 
