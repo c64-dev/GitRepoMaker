@@ -78,7 +78,7 @@ c:\python<PYTHON_VERSION_HERE>\python.exe {gui.project_file}
         cmd('git config --local user.name ' + '"' + gui.username + '"')
         cmd('git config --local user.email ' + '"' + gui.usermail + '"')
         cmd('git add .')
-        cmd('git commit -m ' + gui.commit)
+        cmd('git commit -m "' + gui.commit + '"')
         print('Creating GitHub repository...')
         window.refresh()
         sleep(1)
