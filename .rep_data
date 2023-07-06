@@ -1,0 +1,6 @@
+c64-dev±±c64-dev@proton.me±±/Users/Nick/Library/Mobile Documents/com~apple~CloudDocs/Projects/Python/GitRepoMaker/screenshot.png±±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±±GitRepoMaker±±An easy to use repository maker for GitHub. ±±Updated screenshot and bug fixes±±~/GitRepoMaker±±main.py±±GitRepoMaker gives you an easy way to streamline the procedure of uploading your projects to GitHub, with an easy to use graphical interface.
+
+Once a project folder is selected, the program will add all the necessary GitHub files and folders, create or update the requirements.txt file, create the new repository online and then upload everything to GitHub.±±* Full graphical interface with console output
+* Discover requirements for your program and create the necessary requirements.txt
+* Add project screenshots
+* Streamline the readme.md of your projects by providing a basic template which can be freely edited later on±±
