@@ -346,7 +346,7 @@ def gui():
                     # Pass os_path values outside of the fuction and construct the new repo curl
                     gui.project_path = os_path[0] 
                     gui.project_file = os_path[1]
-                    gui.new_repo = "curl -L -X POST -H \"Accept: application/vnd.github+json\" -H \"Authorization: Bearer " + gui.token + "\" -H \"X-GitHub-Api-Version: 2022-11-28\" https://api.github.com/user/repos -d '{\"name\":\"" + gui.repo_name + "\",\"description\":\"" + gui.descript + "\",\"homepage\":\"https://github.com\",\"private\":false,\"is_template\":true}'"
+                    gui.new_repo = "curl -L -X POST -H \"Accept: application/vnd.github+json\" -H \"Authorization: Bearer " + gui.token + "\" -H \"X-GitHub-Api-Version: 2022-11-28\" https://api.github.com/user/repos -d '{\"name\":\"" + gui.repo_name + "\",\"description\":\"" + gui.descript + "\",\"homepage\":\"https://github.com\",\"private\":false,\"is_template\":false}'"
                     
                     compiler()
                 else:
