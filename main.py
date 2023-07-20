@@ -78,8 +78,6 @@ c:\python<PYTHON_VERSION_HERE>\python.exe {gui.project_file}
         cmd('git init')
         cmd('git config --local user.name ' + '"' + gui.username + '"')
         cmd('git config --local user.email ' + '"' + gui.usermail + '"')
-        cmd('git update-index --assume-unchanged ' + gui.buffer)
-        cmd('git update-index --assume-unchanged .DS_Store')
         cmd('git add .')
         cmd('git commit -m "' + gui.commit + '"')
         print('Creating GitHub repository...')
@@ -110,7 +108,7 @@ def cmd(var):
     
 def gui():
     # Create the graphical interface
-    ver = 'v1.43'
+    ver = 'v1.45'
     gui.buffer = '.repo_data'
     url = 'https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token'    
     
